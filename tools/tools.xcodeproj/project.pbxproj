@@ -16,6 +16,7 @@
 		3FC2481F1AF91DD800747C11 /* toolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2481E1AF91DD800747C11 /* toolsTests.m */; };
 		3FC2482E1AFA5F9900747C11 /* JLbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2482A1AFA5F9900747C11 /* JLbutton.m */; };
 		3FC2482F1AFA5F9900747C11 /* UIBarButtonItem+JLBarbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2482D1AFA5F9900747C11 /* UIBarButtonItem+JLBarbutton.m */; };
+		3FC2487B1AFB532700747C11 /* JLSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2487A1AFB532700747C11 /* JLSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		3FC2482A1AFA5F9900747C11 /* JLbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLbutton.m; sourceTree = "<group>"; };
 		3FC2482C1AFA5F9900747C11 /* UIBarButtonItem+JLBarbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JLBarbutton.h"; sourceTree = "<group>"; };
 		3FC2482D1AFA5F9900747C11 /* UIBarButtonItem+JLBarbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JLBarbutton.m"; sourceTree = "<group>"; };
+		3FC248791AFB532700747C11 /* JLSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSearchBar.h; sourceTree = "<group>"; };
+		3FC2487A1AFB532700747C11 /* JLSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		3FC248011AF91DD800747C11 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				3FC248781AFB532700747C11 /* 搜索框 */,
 				3FC248281AFA5F9900747C11 /* 按钮 */,
 				3FC2482B1AFA5F9900747C11 /* UIBarButtonItem */,
 				3FC248061AF91DD800747C11 /* AppDelegate.h */,
@@ -143,6 +147,15 @@
 				3FC2482D1AFA5F9900747C11 /* UIBarButtonItem+JLBarbutton.m */,
 			);
 			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		3FC248781AFB532700747C11 /* 搜索框 */ = {
+			isa = PBXGroup;
+			children = (
+				3FC248791AFB532700747C11 /* JLSearchBar.h */,
+				3FC2487A1AFB532700747C11 /* JLSearchBar.m */,
+			);
+			path = "搜索框";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC2482F1AFA5F9900747C11 /* UIBarButtonItem+JLBarbutton.m in Sources */,
+				3FC2487B1AFB532700747C11 /* JLSearchBar.m in Sources */,
 				3FC2480B1AF91DD800747C11 /* ViewController.m in Sources */,
 				3FC248081AF91DD800747C11 /* AppDelegate.m in Sources */,
 				3FC248051AF91DD800747C11 /* main.m in Sources */,

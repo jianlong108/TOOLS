@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8B78241AFCFE72008F5DAC /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B77E41AFCFE72008F5DAC /* NSString+Base64.m */; };
+		3F8B78251AFCFE72008F5DAC /* CryptorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B77E71AFCFE72008F5DAC /* CryptorTools.m */; };
+		3F8B78261AFCFE72008F5DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B77EC1AFCFE72008F5DAC /* AppDelegate.m */; };
+		3F8B78271AFCFE72008F5DAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B77ED1AFCFE72008F5DAC /* LaunchScreen.xib */; };
+		3F8B78281AFCFE72008F5DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B77EF1AFCFE72008F5DAC /* Main.storyboard */; };
+		3F8B78291AFCFE72008F5DAC /* CryptorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B77F31AFCFE72008F5DAC /* CryptorTools.m */; };
+		3F8B782A1AFCFE72008F5DAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B77F41AFCFE72008F5DAC /* Images.xcassets */; };
+		3F8B782B1AFCFE72008F5DAC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B77F51AFCFE72008F5DAC /* Info.plist */; };
+		3F8B782C1AFCFE72008F5DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B77F61AFCFE72008F5DAC /* main.m */; };
+		3F8B782D1AFCFE72008F5DAC /* p.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B77F71AFCFE72008F5DAC /* p.p12 */; };
+		3F8B782E1AFCFE72008F5DAC /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B77F81AFCFE72008F5DAC /* rsacert.der */; };
+		3F8B782F1AFCFE72008F5DAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B77FA1AFCFE72008F5DAC /* ViewController.m */; };
+		3F8B78301AFCFE72008F5DAC /* _8_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B77FF1AFCFE72008F5DAC /* _8_______Tests.m */; };
+		3F8B78311AFCFE72008F5DAC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78001AFCFE72008F5DAC /* Info.plist */; };
+		3F8B78321AFCFE72008F5DAC /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B78031AFCFE72008F5DAC /* NSString+Hash.m */; };
+		3F8B78331AFCFE72008F5DAC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78051AFCFE72008F5DAC /* .gitignore */; };
+		3F8B78341AFCFE72008F5DAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78081AFCFE72008F5DAC /* Images.xcassets */; };
+		3F8B78351AFCFE72008F5DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B78091AFCFE72008F5DAC /* main.m */; };
+		3F8B78361AFCFE72008F5DAC /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B780B1AFCFE72008F5DAC /* SSAppDelegate.m */; };
+		3F8B78371AFCFE72008F5DAC /* SSKeychain-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B780C1AFCFE72008F5DAC /* SSKeychain-Info.plist */; };
+		3F8B78381AFCFE72008F5DAC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B780E1AFCFE72008F5DAC /* MainMenu.xib */; };
+		3F8B78391AFCFE72008F5DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B78101AFCFE72008F5DAC /* main.m */; };
+		3F8B783A1AFCFE72008F5DAC /* SSKeychainMac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78111AFCFE72008F5DAC /* SSKeychainMac-Info.plist */; };
+		3F8B783B1AFCFE72008F5DAC /* SSKeychainMac.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78121AFCFE72008F5DAC /* SSKeychainMac.entitlements */; };
+		3F8B783C1AFCFE72008F5DAC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78131AFCFE72008F5DAC /* LICENSE */; };
+		3F8B783D1AFCFE72008F5DAC /* Readme.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B78141AFCFE72008F5DAC /* Readme.markdown */; };
+		3F8B783E1AFCFE72008F5DAC /* SSKeychain.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78161AFCFE72008F5DAC /* SSKeychain.strings */; };
+		3F8B783F1AFCFE72008F5DAC /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B78191AFCFE72008F5DAC /* SSKeychain.m */; };
+		3F8B78401AFCFE72008F5DAC /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B781B1AFCFE72008F5DAC /* SSKeychainQuery.m */; };
+		3F8B78411AFCFE72008F5DAC /* SSKeychain.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B781C1AFCFE72008F5DAC /* SSKeychain.podspec */; };
+		3F8B78421AFCFE72008F5DAC /* SSKeychainMacTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78211AFCFE72008F5DAC /* SSKeychainMacTests-Info.plist */; };
+		3F8B78431AFCFE72008F5DAC /* SSKeychainTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B78221AFCFE72008F5DAC /* SSKeychainTests-Info.plist */; };
+		3F8B78441AFCFE72008F5DAC /* SSKeychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B78231AFCFE72008F5DAC /* SSKeychainTests.m */; };
+		3F8B785A1AFCFE88008F5DAC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B78591AFCFE88008F5DAC /* UIView+Frame.m */; };
+		3F8B78601AFCFEA0008F5DAC /* CycleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B785D1AFCFEA0008F5DAC /* CycleImageCell.m */; };
+		3F8B78611AFCFEA0008F5DAC /* CycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B785F1AFCFEA0008F5DAC /* CycleViewController.m */; };
 		3FC248051AF91DD800747C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC248041AF91DD800747C11 /* main.m */; };
 		3FC248081AF91DD800747C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC248071AF91DD800747C11 /* AppDelegate.m */; };
 		3FC2480B1AF91DD800747C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2480A1AF91DD800747C11 /* ViewController.m */; };
@@ -20,6 +56,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3F8B78471AFCFE72008F5DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B77FB1AFCFE72008F5DAC /* 08-对称加密算法.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18308C381AECE18800782515;
+			remoteInfo = "08-对称加密算法";
+		};
+		3F8B78491AFCFE72008F5DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B77FB1AFCFE72008F5DAC /* 08-对称加密算法.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18308C511AECE18800782515;
+			remoteInfo = "08-对称加密算法Tests";
+		};
+		3F8B784F1AFCFE72008F5DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B781D1AFCFE72008F5DAC /* SSKeychain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21CC42A717DB874300201DDC;
+			remoteInfo = SSKeychain;
+		};
+		3F8B78511AFCFE72008F5DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B781D1AFCFE72008F5DAC /* SSKeychain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21CC42C217DB874300201DDC;
+			remoteInfo = SSKeychainTests;
+		};
+		3F8B78531AFCFE72008F5DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B781D1AFCFE72008F5DAC /* SSKeychain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21B85B2418EC9455009D2B98;
+			remoteInfo = SSKeychainMac;
+		};
+		3F8B78551AFCFE72008F5DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B781D1AFCFE72008F5DAC /* SSKeychain.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21B85B4318EC9456009D2B98;
+			remoteInfo = SSKeychainMacTests;
+		};
 		3FC248191AF91DD800747C11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3FC247F71AF91DD800747C11 /* Project object */;
@@ -30,6 +108,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F8B77E31AFCFE72008F5DAC /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		3F8B77E41AFCFE72008F5DAC /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		3F8B77E61AFCFE72008F5DAC /* CryptorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptorTools.h; sourceTree = "<group>"; };
+		3F8B77E71AFCFE72008F5DAC /* CryptorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptorTools.m; sourceTree = "<group>"; };
+		3F8B77EB1AFCFE72008F5DAC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8B77EC1AFCFE72008F5DAC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F8B77EE1AFCFE72008F5DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F8B77F01AFCFE72008F5DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8B77F21AFCFE72008F5DAC /* CryptorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptorTools.h; sourceTree = "<group>"; };
+		3F8B77F31AFCFE72008F5DAC /* CryptorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptorTools.m; sourceTree = "<group>"; };
+		3F8B77F41AFCFE72008F5DAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F8B77F51AFCFE72008F5DAC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8B77F61AFCFE72008F5DAC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8B77F71AFCFE72008F5DAC /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
+		3F8B77F81AFCFE72008F5DAC /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
+		3F8B77F91AFCFE72008F5DAC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F8B77FA1AFCFE72008F5DAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F8B77FB1AFCFE72008F5DAC /* 08-对称加密算法.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "08-对称加密算法.xcodeproj"; sourceTree = "<group>"; };
+		3F8B77FF1AFCFE72008F5DAC /* _8_______Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "_8_______Tests.m"; sourceTree = "<group>"; };
+		3F8B78001AFCFE72008F5DAC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8B78021AFCFE72008F5DAC /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		3F8B78031AFCFE72008F5DAC /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		3F8B78051AFCFE72008F5DAC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3F8B78081AFCFE72008F5DAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F8B78091AFCFE72008F5DAC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8B780A1AFCFE72008F5DAC /* SSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		3F8B780B1AFCFE72008F5DAC /* SSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		3F8B780C1AFCFE72008F5DAC /* SSKeychain-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSKeychain-Info.plist"; sourceTree = "<group>"; };
+		3F8B780F1AFCFE72008F5DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3F8B78101AFCFE72008F5DAC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8B78111AFCFE72008F5DAC /* SSKeychainMac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSKeychainMac-Info.plist"; sourceTree = "<group>"; };
+		3F8B78121AFCFE72008F5DAC /* SSKeychainMac.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SSKeychainMac.entitlements; sourceTree = "<group>"; };
+		3F8B78131AFCFE72008F5DAC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3F8B78141AFCFE72008F5DAC /* Readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.markdown; sourceTree = "<group>"; };
+		3F8B78171AFCFE72008F5DAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
+		3F8B78181AFCFE72008F5DAC /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		3F8B78191AFCFE72008F5DAC /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		3F8B781A1AFCFE72008F5DAC /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		3F8B781B1AFCFE72008F5DAC /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		3F8B781C1AFCFE72008F5DAC /* SSKeychain.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SSKeychain.podspec; sourceTree = "<group>"; };
+		3F8B781D1AFCFE72008F5DAC /* SSKeychain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SSKeychain.xcodeproj; sourceTree = "<group>"; };
+		3F8B78211AFCFE72008F5DAC /* SSKeychainMacTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSKeychainMacTests-Info.plist"; sourceTree = "<group>"; };
+		3F8B78221AFCFE72008F5DAC /* SSKeychainTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSKeychainTests-Info.plist"; sourceTree = "<group>"; };
+		3F8B78231AFCFE72008F5DAC /* SSKeychainTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainTests.m; sourceTree = "<group>"; };
+		3F8B78581AFCFE88008F5DAC /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3F8B78591AFCFE88008F5DAC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3F8B785C1AFCFEA0008F5DAC /* CycleImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleImageCell.h; sourceTree = "<group>"; };
+		3F8B785D1AFCFEA0008F5DAC /* CycleImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleImageCell.m; sourceTree = "<group>"; };
+		3F8B785E1AFCFEA0008F5DAC /* CycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleViewController.h; sourceTree = "<group>"; };
+		3F8B785F1AFCFEA0008F5DAC /* CycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleViewController.m; sourceTree = "<group>"; };
 		3FC247FF1AF91DD800747C11 /* tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC248031AF91DD800747C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC248041AF91DD800747C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +197,209 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8B77E11AFCFE71008F5DAC /* 加密 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B77E21AFCFE72008F5DAC /* Base64 */,
+				3F8B77E51AFCFE72008F5DAC /* Cryptor对称加密(AES) */,
+				3F8B78011AFCFE72008F5DAC /* Security(散列哈希) */,
+				3F8B78041AFCFE72008F5DAC /* sskeychain-master钥匙串 */,
+			);
+			path = "加密";
+			sourceTree = "<group>";
+		};
+		3F8B77E21AFCFE72008F5DAC /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B77E31AFCFE72008F5DAC /* NSString+Base64.h */,
+				3F8B77E41AFCFE72008F5DAC /* NSString+Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		3F8B77E51AFCFE72008F5DAC /* Cryptor对称加密(AES) */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B77E61AFCFE72008F5DAC /* CryptorTools.h */,
+				3F8B77E71AFCFE72008F5DAC /* CryptorTools.m */,
+				3F8B77E81AFCFE72008F5DAC /* demo */,
+			);
+			path = "Cryptor对称加密(AES)";
+			sourceTree = "<group>";
+		};
+		3F8B77E81AFCFE72008F5DAC /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B77E91AFCFE72008F5DAC /* 08-加密算法 */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		3F8B77E91AFCFE72008F5DAC /* 08-加密算法 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B77EA1AFCFE72008F5DAC /* 08-对称加密算法 */,
+				3F8B77FB1AFCFE72008F5DAC /* 08-对称加密算法.xcodeproj */,
+				3F8B77FE1AFCFE72008F5DAC /* 08-对称加密算法Tests */,
+			);
+			path = "08-加密算法";
+			sourceTree = "<group>";
+		};
+		3F8B77EA1AFCFE72008F5DAC /* 08-对称加密算法 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B77EB1AFCFE72008F5DAC /* AppDelegate.h */,
+				3F8B77EC1AFCFE72008F5DAC /* AppDelegate.m */,
+				3F8B77ED1AFCFE72008F5DAC /* LaunchScreen.xib */,
+				3F8B77EF1AFCFE72008F5DAC /* Main.storyboard */,
+				3F8B77F11AFCFE72008F5DAC /* Cryptor */,
+				3F8B77F41AFCFE72008F5DAC /* Images.xcassets */,
+				3F8B77F51AFCFE72008F5DAC /* Info.plist */,
+				3F8B77F61AFCFE72008F5DAC /* main.m */,
+				3F8B77F71AFCFE72008F5DAC /* p.p12 */,
+				3F8B77F81AFCFE72008F5DAC /* rsacert.der */,
+				3F8B77F91AFCFE72008F5DAC /* ViewController.h */,
+				3F8B77FA1AFCFE72008F5DAC /* ViewController.m */,
+			);
+			path = "08-对称加密算法";
+			sourceTree = "<group>";
+		};
+		3F8B77F11AFCFE72008F5DAC /* Cryptor */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B77F21AFCFE72008F5DAC /* CryptorTools.h */,
+				3F8B77F31AFCFE72008F5DAC /* CryptorTools.m */,
+			);
+			path = Cryptor;
+			sourceTree = "<group>";
+		};
+		3F8B77FC1AFCFE72008F5DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78481AFCFE72008F5DAC /* 08-对称加密算法.app */,
+				3F8B784A1AFCFE72008F5DAC /* 08-对称加密算法Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8B77FE1AFCFE72008F5DAC /* 08-对称加密算法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B77FF1AFCFE72008F5DAC /* _8_______Tests.m */,
+				3F8B78001AFCFE72008F5DAC /* Info.plist */,
+			);
+			path = "08-对称加密算法Tests";
+			sourceTree = "<group>";
+		};
+		3F8B78011AFCFE72008F5DAC /* Security(散列哈希) */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78021AFCFE72008F5DAC /* NSString+Hash.h */,
+				3F8B78031AFCFE72008F5DAC /* NSString+Hash.m */,
+			);
+			path = "Security(散列哈希)";
+			sourceTree = "<group>";
+		};
+		3F8B78041AFCFE72008F5DAC /* sskeychain-master钥匙串 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78051AFCFE72008F5DAC /* .gitignore */,
+				3F8B78061AFCFE72008F5DAC /* Example */,
+				3F8B78131AFCFE72008F5DAC /* LICENSE */,
+				3F8B78141AFCFE72008F5DAC /* Readme.markdown */,
+				3F8B78151AFCFE72008F5DAC /* SSKeychain */,
+				3F8B781C1AFCFE72008F5DAC /* SSKeychain.podspec */,
+				3F8B781D1AFCFE72008F5DAC /* SSKeychain.xcodeproj */,
+				3F8B78201AFCFE72008F5DAC /* Tests */,
+			);
+			path = "sskeychain-master钥匙串";
+			sourceTree = "<group>";
+		};
+		3F8B78061AFCFE72008F5DAC /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78071AFCFE72008F5DAC /* iOS */,
+				3F8B780D1AFCFE72008F5DAC /* Mac */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		3F8B78071AFCFE72008F5DAC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78081AFCFE72008F5DAC /* Images.xcassets */,
+				3F8B78091AFCFE72008F5DAC /* main.m */,
+				3F8B780A1AFCFE72008F5DAC /* SSAppDelegate.h */,
+				3F8B780B1AFCFE72008F5DAC /* SSAppDelegate.m */,
+				3F8B780C1AFCFE72008F5DAC /* SSKeychain-Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3F8B780D1AFCFE72008F5DAC /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B780E1AFCFE72008F5DAC /* MainMenu.xib */,
+				3F8B78101AFCFE72008F5DAC /* main.m */,
+				3F8B78111AFCFE72008F5DAC /* SSKeychainMac-Info.plist */,
+				3F8B78121AFCFE72008F5DAC /* SSKeychainMac.entitlements */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		3F8B78151AFCFE72008F5DAC /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78161AFCFE72008F5DAC /* SSKeychain.strings */,
+				3F8B78181AFCFE72008F5DAC /* SSKeychain.h */,
+				3F8B78191AFCFE72008F5DAC /* SSKeychain.m */,
+				3F8B781A1AFCFE72008F5DAC /* SSKeychainQuery.h */,
+				3F8B781B1AFCFE72008F5DAC /* SSKeychainQuery.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		3F8B781E1AFCFE72008F5DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78501AFCFE72008F5DAC /* SSKeychain.app */,
+				3F8B78521AFCFE72008F5DAC /* SSKeychainTests.xctest */,
+				3F8B78541AFCFE72008F5DAC /* SSKeychainMac.app */,
+				3F8B78561AFCFE72008F5DAC /* SSKeychainMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8B78201AFCFE72008F5DAC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78211AFCFE72008F5DAC /* SSKeychainMacTests-Info.plist */,
+				3F8B78221AFCFE72008F5DAC /* SSKeychainTests-Info.plist */,
+				3F8B78231AFCFE72008F5DAC /* SSKeychainTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3F8B78571AFCFE88008F5DAC /* 设置UIView 的Frame */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B78581AFCFE88008F5DAC /* UIView+Frame.h */,
+				3F8B78591AFCFE88008F5DAC /* UIView+Frame.m */,
+			);
+			path = "设置UIView 的Frame";
+			sourceTree = "<group>";
+		};
+		3F8B785B1AFCFEA0008F5DAC /* 图片轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B785C1AFCFEA0008F5DAC /* CycleImageCell.h */,
+				3F8B785D1AFCFEA0008F5DAC /* CycleImageCell.m */,
+				3F8B785E1AFCFEA0008F5DAC /* CycleViewController.h */,
+				3F8B785F1AFCFEA0008F5DAC /* CycleViewController.m */,
+			);
+			path = "图片轮播";
+			sourceTree = "<group>";
+		};
 		3FC247F61AF91DD800747C11 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +421,9 @@
 		3FC248011AF91DD800747C11 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				3F8B785B1AFCFEA0008F5DAC /* 图片轮播 */,
+				3F8B78571AFCFE88008F5DAC /* 设置UIView 的Frame */,
+				3F8B77E11AFCFE71008F5DAC /* 加密 */,
 				3FC248781AFB532700747C11 /* 搜索框 */,
 				3FC248281AFA5F9900747C11 /* 按钮 */,
 				3FC2482B1AFA5F9900747C11 /* UIBarButtonItem */,
@@ -225,6 +559,16 @@
 			mainGroup = 3FC247F61AF91DD800747C11;
 			productRefGroup = 3FC248001AF91DD800747C11 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3F8B77FC1AFCFE72008F5DAC /* Products */;
+					ProjectRef = 3F8B77FB1AFCFE72008F5DAC /* 08-对称加密算法.xcodeproj */;
+				},
+				{
+					ProductGroup = 3F8B781E1AFCFE72008F5DAC /* Products */;
+					ProjectRef = 3F8B781D1AFCFE72008F5DAC /* SSKeychain.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3FC247FE1AF91DD800747C11 /* tools */,
@@ -233,14 +577,77 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3F8B78481AFCFE72008F5DAC /* 08-对称加密算法.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "08-对称加密算法.app";
+			remoteRef = 3F8B78471AFCFE72008F5DAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F8B784A1AFCFE72008F5DAC /* 08-对称加密算法Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "08-对称加密算法Tests.xctest";
+			remoteRef = 3F8B78491AFCFE72008F5DAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F8B78501AFCFE72008F5DAC /* SSKeychain.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SSKeychain.app;
+			remoteRef = 3F8B784F1AFCFE72008F5DAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F8B78521AFCFE72008F5DAC /* SSKeychainTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SSKeychainTests.xctest;
+			remoteRef = 3F8B78511AFCFE72008F5DAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F8B78541AFCFE72008F5DAC /* SSKeychainMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SSKeychainMac.app;
+			remoteRef = 3F8B78531AFCFE72008F5DAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F8B78561AFCFE72008F5DAC /* SSKeychainMacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SSKeychainMacTests.xctest;
+			remoteRef = 3F8B78551AFCFE72008F5DAC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		3FC247FD1AF91DD800747C11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8B78431AFCFE72008F5DAC /* SSKeychainTests-Info.plist in Resources */,
+				3F8B78271AFCFE72008F5DAC /* LaunchScreen.xib in Resources */,
+				3F8B78281AFCFE72008F5DAC /* Main.storyboard in Resources */,
+				3F8B783E1AFCFE72008F5DAC /* SSKeychain.strings in Resources */,
+				3F8B783A1AFCFE72008F5DAC /* SSKeychainMac-Info.plist in Resources */,
 				3FC2480E1AF91DD800747C11 /* Main.storyboard in Resources */,
+				3F8B782A1AFCFE72008F5DAC /* Images.xcassets in Resources */,
+				3F8B78371AFCFE72008F5DAC /* SSKeychain-Info.plist in Resources */,
+				3F8B78381AFCFE72008F5DAC /* MainMenu.xib in Resources */,
+				3F8B783B1AFCFE72008F5DAC /* SSKeychainMac.entitlements in Resources */,
+				3F8B783C1AFCFE72008F5DAC /* LICENSE in Resources */,
+				3F8B78331AFCFE72008F5DAC /* .gitignore in Resources */,
+				3F8B782E1AFCFE72008F5DAC /* rsacert.der in Resources */,
+				3F8B78411AFCFE72008F5DAC /* SSKeychain.podspec in Resources */,
 				3FC248131AF91DD800747C11 /* LaunchScreen.xib in Resources */,
 				3FC248101AF91DD800747C11 /* Images.xcassets in Resources */,
+				3F8B782D1AFCFE72008F5DAC /* p.p12 in Resources */,
+				3F8B78341AFCFE72008F5DAC /* Images.xcassets in Resources */,
+				3F8B78311AFCFE72008F5DAC /* Info.plist in Resources */,
+				3F8B78421AFCFE72008F5DAC /* SSKeychainMacTests-Info.plist in Resources */,
+				3F8B782B1AFCFE72008F5DAC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +667,28 @@
 			files = (
 				3FC2482F1AFA5F9900747C11 /* UIBarButtonItem+JLBarbutton.m in Sources */,
 				3FC2487B1AFB532700747C11 /* JLSearchBar.m in Sources */,
+				3F8B78601AFCFEA0008F5DAC /* CycleImageCell.m in Sources */,
+				3F8B783F1AFCFE72008F5DAC /* SSKeychain.m in Sources */,
+				3F8B78261AFCFE72008F5DAC /* AppDelegate.m in Sources */,
 				3FC2480B1AF91DD800747C11 /* ViewController.m in Sources */,
 				3FC248081AF91DD800747C11 /* AppDelegate.m in Sources */,
+				3F8B78291AFCFE72008F5DAC /* CryptorTools.m in Sources */,
+				3F8B783D1AFCFE72008F5DAC /* Readme.markdown in Sources */,
+				3F8B782F1AFCFE72008F5DAC /* ViewController.m in Sources */,
+				3F8B78321AFCFE72008F5DAC /* NSString+Hash.m in Sources */,
+				3F8B785A1AFCFE88008F5DAC /* UIView+Frame.m in Sources */,
 				3FC248051AF91DD800747C11 /* main.m in Sources */,
+				3F8B78251AFCFE72008F5DAC /* CryptorTools.m in Sources */,
+				3F8B78441AFCFE72008F5DAC /* SSKeychainTests.m in Sources */,
+				3F8B78351AFCFE72008F5DAC /* main.m in Sources */,
 				3FC2482E1AFA5F9900747C11 /* JLbutton.m in Sources */,
+				3F8B78391AFCFE72008F5DAC /* main.m in Sources */,
+				3F8B78361AFCFE72008F5DAC /* SSAppDelegate.m in Sources */,
+				3F8B78401AFCFE72008F5DAC /* SSKeychainQuery.m in Sources */,
+				3F8B78301AFCFE72008F5DAC /* _8_______Tests.m in Sources */,
+				3F8B782C1AFCFE72008F5DAC /* main.m in Sources */,
+				3F8B78241AFCFE72008F5DAC /* NSString+Base64.m in Sources */,
+				3F8B78611AFCFEA0008F5DAC /* CycleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +711,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3F8B77ED1AFCFE72008F5DAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B77EE1AFCFE72008F5DAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3F8B77EF1AFCFE72008F5DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B77F01AFCFE72008F5DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8B780E1AFCFE72008F5DAC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B780F1AFCFE72008F5DAC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3F8B78161AFCFE72008F5DAC /* SSKeychain.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B78171AFCFE72008F5DAC /* en */,
+			);
+			name = SSKeychain.strings;
+			sourceTree = "<group>";
+		};
 		3FC2480C1AF91DD800747C11 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
